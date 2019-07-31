@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ControllingActivity"
+    android:background="@drawable/bgcon2">
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/back"
+        android:onClick="keMenu"/>
+
+
+    <TextView
+        android:id="@+id/lblJudulControlling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        android:text="CONTROLLING"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <!--AIR BIASA-->
+    <TextView
+        android:id="@+id/lblAirBiasa"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="110dp"
+        android:padding="10dp"
+        android:text="AIR BIASA"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/statusBiasa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="145dp"
+        android:text="Status:"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+    <ImageView
+        android:id="@+id/imgPump1"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/pump" />
+
+    <Switch
+        android:id="@+id/switchBiasa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="190dp"
+        android:showText="true" />
+
+
+
+       <!--AIR ASAM-->
+    <TextView
+        android:id="@+id/lblPeAsam"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="185dp"
+        android:layout_marginTop="110dp"
+        android:padding="10dp"
+        android:text="PENETRAL ASAM"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/statusAsam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="145dp"
+        android:text="Status:"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/imgPump2"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="205dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/pump" />
+
+    <Switch
+        android:id="@+id/switchAsam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="190dp"
+        android:showText="true" />
+
+
+    <!--AIR KAPUR-->
+    <TextView
+        android:id="@+id/lblPeBasa"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="260dp"
+        android:padding="10dp"
+        android:text="PENETRAL BASA"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/statusBasa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="295dp"
+        android:text="Status:"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+    <ImageView
+        android:id="@+id/imgPump3"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginLeft="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/pump" />
+
+    <Switch
+        android:id="@+id/switchBasa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="340dp"
+        android:showText="true" />
+
+
+
+    <!--ANTI HAMA-->
+    <TextView
+        android:id="@+id/lblAntiHama"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="260dp"
+        android:padding="10dp"
+        android:text="ANTI HAMA"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/statusHama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="295dp"
+        android:text="Status:"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+    <ImageView
+        android:id="@+id/imgPump4"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginLeft="205dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/pump" />
+
+    <Switch
+        android:id="@+id/switchHama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="335dp"
+        android:showText="true" />
+
+
+
+    <!--BLOWER-->
+    <TextView
+        android:id="@+id/lblBlower"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="410dp"
+        android:padding="10dp"
+        android:text="BLOWER"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/statusBlower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="445dp"
+        android:text="Status:"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/imgBlower"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="475dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/blower1" />
+
+    <Switch
+        android:id="@+id/switchBlower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="495dp"
+        android:showText="true" />
+
+</RelativeLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MonitoringActivity"
+    android:background="@drawable/bgmon">
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/back"
+        android:onClick="keMenu"/>
+
+    <ImageButton
+        android:id="@+id/controlButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/backButton"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/sound" />
+
+
+    <TextView
+        android:id="@+id/lblJudulMonitoring"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="82dp"
+        android:padding="10dp"
+        android:text="MONITORING"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/imgSuhu"
+        android:layout_width="99dp"
+        android:layout_height="93dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="170dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/suhu3" />
+
+    <ImageView
+        android:id="@+id/imgHumid"
+        android:layout_width="95dp"
+        android:layout_height="99dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="290dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/humid" />
+
+    <ImageView
+        android:id="@+id/imgPh"
+        android:layout_width="98dp"
+        android:layout_height="99dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="430dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/phmeter" />
+
+    <TextView
+        android:id="@+id/txtSuhu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="170dp"
+        android:padding="10dp"
+        android:text="0"
+        android:textColor="#000000"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/lblSelcius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="170dp"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:text="°C"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/txtHumidity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="290dp"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:text="0"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/lblPersen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="290dp"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:text="%"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/txtPh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="430dp"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:text="0"
+        android:textSize="50dp" />
+
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".HomeActivity"
+    android:background="@drawable/bghome">
+
+    <TextView
+        android:id="@+id/lblComments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:padding="10dp"
+        android:text="Welcome"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/lblJudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="34dp"
+        android:padding="10dp"
+        android:text="SMART CHIPANTOR"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/lblJudul2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="84dp"
+        android:padding="10dp"
+        android:text="Smart Chilli Plant Detector"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="22dp" />
+
+    <ImageButton
+        android:id="@+id/btnSpeak"
+        android:layout_width="234dp"
+        android:layout_height="307dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/record3"
+        android:background="@null"/>
+    <!--android:onClick="keMenu"-->
+
+    <TextView
+        android:id="@+id/lblClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="474dp"
+        android:padding="10dp"
+        android:text="click this button, start to say the password, and you can go to the app "
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "198273893576",
+    "firebase_url": "https://smart-chipantor-879b8.firebaseio.com",
+    "project_id": "smart-chipantor-879b8",
+    "storage_bucket": "smart-chipantor-879b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198273893576:android:720d1b0493b6b6e7",
+        "android_client_info": {
+          "package_name": "com.example.smartchipantor2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198273893576-d6tpa3ita5s46n0p20n4ro9r11hnhmll.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smartchipantor2",
+            "certificate_hash": "d71fb4078282b6cd025033412cf80e4315a2630a"
+          }
+        },
+        {
+          "client_id": "198273893576-f46ec1psiesltcth4r8be5nleeqvhbpf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5_YrjqFcyZkIgzsq-rmvdf3e9meOuXjw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198273893576-f46ec1psiesltcth4r8be5nleeqvhbpf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
