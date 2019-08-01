@@ -16,10 +16,12 @@ public class MenuActivity extends AppCompatActivity {
     public void keMonitoring(View view) {
         Intent intent = new Intent(this, MonitoringActivity.class);
         startActivity(intent);
+        finish();
     }
 
     public void keControlling(View view){
         Intent intent = new Intent(this, ControllingActivity.class);
         startActivity(intent);
+        finish();
     }
 }

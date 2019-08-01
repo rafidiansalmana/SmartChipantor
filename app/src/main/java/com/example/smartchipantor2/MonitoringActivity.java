@@ -102,25 +102,27 @@ public class MonitoringActivity extends AppCompatActivity {
                 txtHumidity.setText(result.Humidity.toString());
                 txtPh.setText(result.PH.toString());
                 if (result.Temperature >= 27) {
-//                        imgSuhu.setBackgroundResource(R.drawable.suhu2);
+                        imgSuhu.setImageResource(R.drawable.suhu2);
                     txtSuhu.setTextColor(Color.parseColor("#d11717"));
                 }
                 if (result.Temperature <= 26) {
+                    imgSuhu.setImageResource(R.drawable.suhu3);
                     txtSuhu.setTextColor(Color.parseColor("#000000"));
                 }
                 if (result.Humidity <= 60 || result.Humidity >= 80) {
-//                        imgHumidity.setImageDrawable(R.id.imgHumid2);
+                        imgHumidity.setImageResource(R.drawable.humid2);
                     txtHumidity.setTextColor(Color.parseColor("#d11717"));
                 }
                 else if (result.Humidity >= 61 || result.Humidity <= 79) {
+                    imgHumidity.setImageResource(R.drawable.humid);
                     txtHumidity.setTextColor(Color.parseColor("#000000"));
                 }
                 if (result.PH <= 4.9 || result.PH >= 8.1) {
-//                        imgPh.setImageDrawable(R.id.imgPh2);
+                        imgPh.setImageResource(R.drawable.ph2);
                     txtPh.setTextColor(Color.parseColor("#d11717"));
                 }
                 else if (result.PH >= 5 || result.PH <= 8) {
-//                        imgPh.setImageDrawable(R.id.imgPh2);
+                    imgPh.setImageResource(R.drawable.phmeter);
                     txtPh.setTextColor(Color.parseColor("#000000"));
                 }
             }
@@ -144,6 +146,7 @@ public class MonitoringActivity extends AppCompatActivity {
     public void keMenu(View view) {
         Intent intent = new Intent(this, MenuActivity.class);
         startActivity(intent);
+        finish();
     }
 
 

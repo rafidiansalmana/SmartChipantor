@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MenuActivity"
-    android:background="@drawable/bgmenu2"
+    android:background="@drawable/bgmenu22"
     android:orientation="vertical">
 
     <TextView
@@ -13,24 +13,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="47dp"
+        android:layout_marginTop="170dp"
         android:padding="10dp"
-        android:text="Menu"
+        android:text="Metode Pengoperasian"
         android:textColor="#ffffff"
-        android:textAlignment="center"
-        android:textSize="20dp" />
-
-    <TextView
-        android:id="@+id/lblCommentsa"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:padding="5dp"
-        android:text="SMART CHIPANTOR"
         android:textStyle="bold"
-        android:textColor="#ffffff"
         android:textAlignment="center"
-        android:textSize="30dp" />
+        android:textSize="25dp" />
 
 
     <LinearLayout
@@ -39,7 +28,6 @@
         android:gravity="center"
         android:padding="5dp"
         android:orientation="horizontal"
-        android:layout_below="@id/lblCommentsa"
         android:layout_gravity="center">
 
 

@@ -188,6 +188,7 @@ public class ControllingActivity extends AppCompatActivity {
     public void keMenu(View view) {
         Intent intent = new Intent(this, MenuActivity.class);
         startActivity(intent);
+        finish();
     }
 
 

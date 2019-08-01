@@ -7,44 +7,20 @@
     android:layout_height="match_parent"
     android:padding="10dp"
     tools:context=".HomeActivity"
-    android:background="@drawable/bghome">
+    android:background="@drawable/bghome22">
 
     <TextView
         android:id="@+id/lblComments"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="0dp"
+        android:layout_marginTop="110dp"
         android:padding="10dp"
         android:text="Welcome"
+        android:textStyle="bold"
         android:textColor="#000000"
         android:textAlignment="center"
         android:textSize="20dp" />
-
-    <TextView
-        android:id="@+id/lblJudul"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="34dp"
-        android:padding="10dp"
-        android:text="SMART CHIPANTOR"
-        android:textColor="#000000"
-        android:textStyle="bold"
-        android:textAlignment="center"
-        android:textSize="35dp" />
-
-    <TextView
-        android:id="@+id/lblJudul2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="84dp"
-        android:padding="10dp"
-        android:text="Smart Chilli Plant Detector"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="22dp" />
 
     <ImageButton
         android:id="@+id/btnSpeak"

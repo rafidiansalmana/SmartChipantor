@@ -45,30 +45,32 @@
 
     <ImageView
         android:id="@+id/imgSuhu"
-        android:layout_width="99dp"
+        android:layout_width="110dp"
         android:layout_height="93dp"
-        android:layout_marginLeft="50dp"
+        android:layout_marginLeft="35dp"
         android:layout_marginTop="170dp"
         android:scaleType="fitXY"
         android:src="@drawable/suhu3" />
 
     <ImageView
         android:id="@+id/imgHumid"
-        android:layout_width="95dp"
+        android:layout_width="125dp"
         android:layout_height="99dp"
-        android:layout_marginLeft="50dp"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="290dp"
         android:scaleType="fitXY"
         android:src="@drawable/humid" />
 
+
     <ImageView
         android:id="@+id/imgPh"
-        android:layout_width="98dp"
+        android:layout_width="130dp"
         android:layout_height="99dp"
-        android:layout_marginLeft="50dp"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="430dp"
         android:scaleType="fitXY"
         android:src="@drawable/phmeter" />
+
 
     <TextView
         android:id="@+id/txtSuhu"
